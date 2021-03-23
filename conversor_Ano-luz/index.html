@@ -20,7 +20,7 @@
     </header>
     <main>
         <div class="container">
-            <form action="" onsubmit="Form.submit(event)">
+            <form >
                 <div class="amount">
                     <label 
                         class="conv" 
@@ -34,14 +34,14 @@
                     />
                     <span>Ano-luz</span>      
                 </div>
-                <span class="igual">=</span>
+                <button type="button" class="igual" onclick="conversor();" >=</button>
                 <div class="amount">
                     <label 
                         class="conv" 
                         for="kms">
                     </label>
                     <input 
-                        type="number" 
+                        type="text" 
                         id="kms" 
                         name="kms" 
                         placeholder="0" 
