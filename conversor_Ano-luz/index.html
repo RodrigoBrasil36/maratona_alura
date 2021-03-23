@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/favi.PNG" sizes="32x32" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <audio autoplay="true"  controls loop src="./src/Interstellar - Main Theme - Hans Zimmer_50k.mp3"></audio>
+    <header>
+        <h1>Conversor de moedas</h1>
+        <p class="page-subtitle">Descubra os valores em KM</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt="logo_imersao">
+    </header>
+    <main>
+        <div class="container">
+            <form action="" onsubmit="Form.submit(event)">
+                <div class="amount">
+                    <label 
+                        class="conv" 
+                        for="quantidade">
+                    </label>
+                    <input 
+                        type="number" 
+                        id="quantidade" 
+                        name="quantidade" 
+                        placeholder="0" 
+                    />
+                    <span>Ano-luz</span>      
+                </div>
+                <span class="igual">=</span>
+                <div class="amount">
+                    <label 
+                        class="conv" 
+                        for="kms">
+                    </label>
+                    <input 
+                        type="number" 
+                        id="kms" 
+                        name="kms" 
+                        placeholder="0" 
+                    />
+                <span>Quilômetro</span>    
+                </div>
+            </form>   
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
